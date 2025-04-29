@@ -1,0 +1,33 @@
+/* Import Tailwind CSS framework */
+@import "tailwindcss";
+
+/* Define root level CSS variables for theme colors */
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+}
+
+/* Define theme variables using CSS custom properties */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  /* Geist font families for sans-serif and monospace text */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Reset HTML and body defaults and prevent overscroll behavior */
+html, body {
+  overscroll-behavior: none; /* Prevents scrolling beyond the viewport boundaries */
+  overflow-y: auto;          /* Enables vertical scrolling */
+  height: 100%;              /* Full viewport height */
+  margin: 0;                 /* Remove default margins */
+  padding: 0;                /* Remove default padding */
+}
+
+/* Apply theme variables to body element */
+body {
+  background: var(--background);     /* Use theme background color */
+  color: var(--foreground);          /* Use theme text color */
+  font-family: var(--font-sans);     /* Use Geist sans-serif font */
+}
