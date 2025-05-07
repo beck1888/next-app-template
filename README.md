@@ -28,7 +28,9 @@ This is a very basic template for a Next.js app. I've taken out most of Vercel's
 
 4. Open your browser and go to `http://localhost:3000` to see the app running.
 
-5. (Optional) Delete `README.md` and add your own.
+5. (Optional) Remove my git folder and initialize your own source control.
+
+6. (Optional) Delete `README.md` and add your own.
 
 ## Recommended Tooling
 - **Editor**: [Visual Studio Code](https://code.visualstudio.com/)
