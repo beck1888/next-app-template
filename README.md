@@ -9,6 +9,7 @@ This is a very basic template for a Next.js app. I've taken out most of Vercel's
 - **App Router**
 - **Turbopack**
 - **Default Import Alias**: The import alias is `@/*` for the `src` directory.
+- **Style note**: I've added some CSS to prevent the "rubber banding" effect seen on trackways.
 
 ## Installation
 1. Clone the repository:
