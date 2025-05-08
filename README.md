@@ -2,6 +2,7 @@
 This is a very basic template for a Next.js app. I've taken out most of Vercel's boilerplate code and added a few things that I like to have in my projects.
 
 ## Defaults
+- **NPM**
 - **TypeScript**
 - **ESLint**
 - **Tailwind CSS**
