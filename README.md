@@ -27,12 +27,14 @@ This is a very basic template for a Next.js app. I've taken out most of Vercel's
     ```bash
     npm run dev
     ```
+4. Remove leftover bits from the install
+   - Rename the app in package.json and package-lock.json, in the layout.tsx file, and remove the placeholder image and code.
 
-4. Open your browser and go to `http://localhost:3000` to see the app running.
+6. Open your browser and go to `http://localhost:3000` to see the app running.
 
-5. (Optional) Remove my git folder and initialize your own source control.
+7. (Optional) Remove my git folder and initialize your own source control.
 
-6. (Optional) Delete `README.md` and add your own.
+8. (Optional) Delete `README.md` and add your own.
 
 ## Recommended Tooling
 - **Editor**: [Visual Studio Code](https://code.visualstudio.com/)
